@@ -1,7 +1,7 @@
 # Mr.Si
 Bot that helps you synthesize search results using GPT-3. A smarter search.
 It gets your initial question e.g. "When will we cure cancer?", then creates multiple search proposals to use on Google Search, and fetches the top urls for each of the search results.  Then condenses candidate links into answers, saving you the time of browsing each page looking for the exact answer to your question.
-You can find details and examples in the SearchC notebook.
+You can find details and examples in the SearcherC.ipynb notebook.
 Mr.Si is in reference to Mr.C, an experimental Pubmed search bot built two years ago as a fun project.
 
 # Run notebook
