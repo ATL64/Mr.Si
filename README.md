@@ -1,7 +1,7 @@
 # Mr.Si
 
 
-![smiley](MrSi.png){:height="36px" width="36px"}
+![smiley](MrSi.png){:height="12px" width="12px"}
 
 Bot that helps you synthesize search results using GPT-3. A smarter search.
 It gets your initial question e.g. "When will we cure cancer?", then creates multiple search proposals to use on Google Search, and fetches the top urls for each of the search results.  Then condenses candidate links into answers, saving you the time of browsing each page looking for the exact answer to your question.
