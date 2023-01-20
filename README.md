@@ -12,7 +12,9 @@ You can view the results of the notebook above, but to run it you will need to h
 
 And paste the corresponding information in each file. Then just run the notebook.  Beware that if you increase the n of urls and n of snippets, it might take more than just a few minutes to run the final function.
 
-With 15 urls and 25 snippets, you should expect 1-3 minutes execution time. Unforutnately had to sleep(1) due to rate limit of rapid api.
+You can also run the Run Searcher notebook to load all functions as a package and run queries in a clean notebook.
+
+With 15 urls and 25 snippets, you should expect 1-3 minutes execution time and around 20 cents of OpenAI cost for the embeddings and GPT-3 completion. Unforutnately had to sleep(1) due to rate limit of rapid api, making it this slow.
 GPT3 API somwtimes returns 'overloaded', but should still run fine.
 
 # Next
