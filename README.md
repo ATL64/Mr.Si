@@ -12,7 +12,7 @@ You can view the results of the notebook above, but to run it you will need to h
 - rapid_api_key.txt
 - rapid_api_host.txt
 
-And paste the corresponding information in each file. Then just run the notebook.  Beware that if you increase the n of urls and n of snippets, it might take more than just a few minutes to run the final function.
+And paste the corresponding information in each file (creds.txt is for the openAI token). Then just run the notebook.  Beware that if you increase the n of urls and n of snippets, it might take more than just a few minutes to run the final function.
 
 You can also run the Run Searcher notebook to load all functions as a package and run queries in a clean notebook.
 
