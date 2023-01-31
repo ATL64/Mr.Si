@@ -19,7 +19,7 @@ You can also run the Run Searcher notebook to load all functions as a package an
 With 15 urls and 25 snippets, you should expect 1-3 minutes execution time and around 20 cents of OpenAI cost for the embeddings and GPT-3 completion. 
 GPT3 API somwtimes returns 'overloaded', but should still run fine.
 
-Note:  The tiktoken package requires python 3.8 or 3.9 which makes it annoying to run locally.  I ended up spinning up a an instance in GCP (VertexAI->Workbench->create instance), and reinstalling python with latest version in a workbench terminal as well as the packages.  There's some warning popups which I dismissed and all worked.
+Note:  The tiktoken package requires python 3.8 or 3.9 which makes it annoying to run locally.  I ended up spinning up a an instance in GCP (VertexAI->Workbench->create instance-> only 3.75G memory should do, rest defaults), and reinstalling python with latest version in a workbench terminal as well as the packages.  There's some warning popups which I dismissed and all worked.
 
 # Next
 If this becomes useful, next step will be to package it properly and add functionalities.  Maybe leverage LangChain for this. 
